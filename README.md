@@ -28,7 +28,7 @@ appointments, and update availability in real-time.
   - **GitHub Link:** https://github.com/Debarshi-Gupta/Patient-Appointment-Booking-System
 
 ## Work Experience
-- **Cognizant** - *Software Engineer* (08/2024 - Present)
+- **Cognizant** - *Software Engineer* (08/2022 - Present)
   - Designed, developed and modified 30+ application components 
 and features, following standard security practices and development 
 design patterns 
