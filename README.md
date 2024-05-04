@@ -1,4 +1,53 @@
-### Hi there 👋
+# Hi there, I'm Debarshi Gupta! 👋
+
+## About Me
+I'm a passionate Java and Angular developer with a strong enthusiasm for crafting clean, efficient, and maintainable code. I thrive on challenges and love to delve into complex problems to find innovative solutions. With a background in both backend and frontend development, I enjoy bridging the gap between design and technical implementation, ensuring seamless user experiences.
+
+## Skills
+- **Languages:** Java, TypeScript, HTML5, CSS3
+- **Frameworks:** Spring Boot, Angular
+- **Databases:** MySQL, Oracle SQL
+- **Tools & Technologies:** Git, Maven, Jenkins, SonarQube, RESTful APIs
+
+## Projects
+- **Project Name:** Movie Booking Application 
+  - **Tech Stack:** Java, Spring Boot, Angular, MySQL
+  - **Description:** Developed a robust movie booking application using Spring Boot for 
+the backend and Angular for the frontend. This project showcased 
+proficiency in full-stack development, RESTful API design, role-based 
+authentication mechanisms using JWT, database integration using 
+MySQL, and intuitive UI design for seamless user experience.
+  - **GitHub Link:** https://github.com/Debarshi-Gupta/movie-booking-app
+
+- **Project Name:** Patient Appointment Booking System
+  - **Tech Stack:** Java, Spring Boot, Angular, MySQL
+  - **Description:** The system allows patients to conveniently schedule appointments 
+with healthcare providers, view available time slots. Additionally, 
+healthcare professionals can manage their schedules, view patient 
+appointments, and update availability in real-time.
+  - **GitHub Link:** https://github.com/Debarshi-Gupta/Patient-Appointment-Booking-System
+
+## Work Experience
+- **Cognizant** - *Software Engineer* (08/2024 - Present)
+  - Designed, developed and modified 30+ application components 
+and features, following standard security practices and development 
+design patterns 
+  - Developed 100+ Unit Tests to verify the functionality of user 
+interfaces, backend processing, connectivity and relational database 
+interactions 
+  - Planned, tracked and managed deliverables on 30+ short-term 
+sprints and 10+ long term deployments
+  - Analysed user requirements to derive technical software design 
+and performance requirements
+
+## Education
+- **B.Tech** in Computer Science Engineering - *Future Institute of Engineering and Management* (2018 - 2022)
+
+## Contact Me
+- LinkedIn: https://www.linkedin.com/in/debarshi-gupta-9b242a210/
+- Email: debarshigupta47@gmail.com
+
+Feel free to reach out if you have any questions, opportunities, or just want to connect!
 
 <!--
 **Debarshi-Gupta/Debarshi-Gupta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
