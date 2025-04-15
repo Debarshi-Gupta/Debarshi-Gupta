@@ -4,10 +4,10 @@
 I'm a passionate Java and Angular developer with a strong enthusiasm for crafting clean, efficient, and maintainable code. I thrive on challenges and love to delve into complex problems to find innovative solutions. With a background in both backend and frontend development, I enjoy bridging the gap between design and technical implementation, ensuring seamless user experiences.
 
 ## Skills
-- **Languages:** Java, TypeScript, HTML5, CSS3
+- **Languages:** Java, Rust, TypeScript, HTML5, CSS3
 - **Frameworks:** Spring Boot, Angular
-- **Databases:** MySQL, Oracle SQL
-- **Tools & Technologies:** Git, Maven, Jenkins, SonarQube, RESTful APIs
+- **Databases:** MySQL, OracleSQL, PostgreSQL
+- **Tools & Technologies:** Git, Maven, Cargo, Jenkins, SonarQube, VS Code, PostMan
 
 ## Projects
 - **Project Name:** Movie Booking Application 
@@ -28,17 +28,25 @@ appointments, and update availability in real-time.
   - **GitHub Link:** https://github.com/Debarshi-Gupta/Patient-Appointment-Booking-System
 
 ## Work Experience
-- **Cognizant** - *Software Engineer* (08/2022 - Present)
+- **Juspay** - *Software Development Engineer - I* (11/2024 - Present)
+  - Developed and optimized Hyperswitch, Juspay's payment orchestration platform, enhancing transaction 
+processing speed and reliability. 
+  - Implemented seamless integration of 8+ Payment Gateways, improving compatibility across diverse platforms 
+and payment methods. 
+  - Enhanced system performance and scalability by identifying bottlenecks and implementing efficient solutions.
+  - Contributed to Code Quality and Maintainability, leveraging best practices in code reviews and documentation.
+
+- **Cognizant** - *Software Engineer* (08/2022 - 11/2024)
   - Designed, developed and modified 30+ application components 
 and features, following standard security practices and development 
-design patterns 
+design patterns. 
   - Developed 100+ Unit Tests to verify the functionality of user 
 interfaces, backend processing, connectivity and relational database 
-interactions 
+interactions. 
   - Planned, tracked and managed deliverables on 30+ short-term 
-sprints and 10+ long term deployments
+sprints and 10+ long term deployments.
   - Analysed user requirements to derive technical software design 
-and performance requirements
+and performance requirements.
 
 ## Education
 - **B.Tech** in Computer Science Engineering - *Future Institute of Engineering and Management* (2018 - 2022)
