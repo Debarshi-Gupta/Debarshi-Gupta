@@ -49,10 +49,10 @@ sprints and 10+ long term deployments.
 and performance requirements.
 
 ## Education
-- **B.Tech** in Computer Science Engineering - *Future Institute of Engineering and Management* (2018 - 2022)
+- **B.Tech** in Computer Science Engineering - *West Bengal University of Technology* (2018 - 2022)
 
-## Contact Me
-- LinkedIn: https://www.linkedin.com/in/debarshi-gupta-9b242a210/
+## Corstact Me
+- LickedIn: https://www.linkedin.com/in/debarshi-gupta-9b242a210/
 - Email: debarshigupta47@gmail.com
 
 Feel free to reach out if you have any questions, opportunities, or just want to connect!
