@@ -8,8 +8,15 @@ on:
     branches:
       - main
 
+# The workflow publishes generated SVGs to the dedicated output branch.
+# It never creates commits on main.
 permissions:
   contents: write
+
+# Prevent scheduled/manual/push runs from publishing to output simultaneously.
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
 
 jobs:
   generate:
@@ -17,20 +24,27 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Generate light and dark contribution snakes
         uses: Platane/snk@v3
         with:
           github_user_name: Debarshi-Gupta
           outputs: |
-            assets/contribution-snake.svg
-            assets/contribution-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Commit updated contribution animations
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Verify generated SVG files
+        run: |
+          test -s dist/github-contribution-grid-snake.svg
+          test -s dist/github-contribution-grid-snake-dark.svg
+
+      - name: Publish contribution snakes to the output branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          commit_message: "chore: refresh contribution snake"
-          file_pattern: assets/contribution-snake.svg assets/contribution-snake-dark.svg
-          commit_user_name: github-actions[bot]
-          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
